@@ -1,0 +1,345 @@
+.destinations{
+    padding-top: 4%;
+}
+
+.etitle{
+    text-align: center;
+}
+
+.box-title{
+    font-size: calc(0.625rem + (1.5 - 0.625) * ((100vw - 25rem) / (80 - 25)));
+
+
+}
+.b-link{
+    width: 35%;
+    align-self: flex-end;
+}
+.date{
+    text-align: initial;
+}
+.event-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 4% 0%;
+}
+
+.carepoint-box{
+    width: 75%;
+    border-radius: 15px;
+    padding: 7%;
+    margin: 5%;
+    background-color: #F3F2E7;
+}
+.carepoint-boxes{
+    display: grid;
+    margin:2% 10%;
+    grid-template-columns: repeat(2,1fr); 
+    justify-content: center;
+}
+.logo-box{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.eheader {
+    border-bottom: 1px solid #707070; 
+    line-height: 4em;
+    margin:5% auto 5% auto; 
+    color:#5FC0E2;
+    font-weight: normal;
+    font-size: calc(1.25rem + (2 - 1.25) * ((100vw - 25rem) / (97.5 - 25)));
+  
+ } 
+ .eheadertop{
+     position: relative;
+     top:2px;
+     border-bottom: 3px solid black;
+     line-height: 0.1em;
+     width: 20%;
+ }
+
+ .simages{
+     margin-right: 10%;
+ }
+ 
+.espan { 
+     background:#fff; 
+     padding:0 5%; 
+ }
+ .box-description{
+     font-family: 'manrope';
+     color:#3A170080;
+ }
+ .description{
+     font-size:calc(0.625rem + (1 - 0.625) * ((100vw - 25rem) / (97.5 - 25)));
+     color:#E29F72;
+     padding: 2%;
+ }
+ .ubuntu{
+    font-size: calc(1.125rem + (2.25 - 1.125) * ((100vw - 25rem) / (80 - 25)));
+    color: #3A1700;
+ }
+
+ .image-container{
+     display: flex;
+     padding:5% 10%;
+
+ }
+ .contact-link{
+     display: contents;
+     text-decoration: none;
+ }
+
+ .container{
+    display:grid;
+    width: 30%;
+    padding: 0 2%;
+ }
+
+ .image-text{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content:center ;
+    margin-top: 25%;
+    margin-right: 7%;
+    cursor: pointer;
+ }
+ .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+ }
+ .image-text:hover .overlay{
+    opacity: 1;
+ }
+ .overlay-text {
+    color: white;
+    font-size: calc(0.8rem + (1.25 - 0.8) * ((100vw - 25rem) / (97.5 - 25)));;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 73%;
+    width: 100%;
+  }
+  .overlay-text2 {
+    color: white;
+    font-size: calc(0.8rem + (1.25 - 0.8) * ((100vw - 25rem) / (97.5 - 25)));;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    bottom: 73%;
+    left: 50%;
+    width: 100%;
+  }
+
+
+ .location-icon{
+     margin-top: 11%;
+ }
+ .location-icon2{
+    margin-top: 8%;
+}
+.location-icon3{
+    margin-top: 15%;
+}
+.services{
+    padding-top: 1%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.bg-success{
+    background-color:#2FB0AB !important;
+    
+}
+.btn{
+    display: inline-block;
+    width: 80%;
+    background-color: hsl(228, 29%, 61%);
+    color:white;
+    padding: 4%;
+    border: none;
+    border-radius: 1.563rem;
+    font-weight: 200;
+    cursor:pointer;
+}
+.btn-title{
+    display: inline-block;
+    width: 30%;
+    margin: 4% 55% 0% 0%;
+    background-color: #E29F72;
+    color: white;
+    padding: 1%;
+    border: none;
+    border-radius: 1.563rem;
+    font-family: 'Manrope';
+    font-weight: 200;
+    cursor: pointer;
+}
+.btn-explore{
+    display: inline-block;
+    background-color: white;
+    max-width: 12.25rem;
+    color:#7E8AB8;
+    padding: 0.5rem calc(1.563rem + (2.25 - 1.563 ) * ((100vw - 25rem) / (80 - 25)));
+    border: solid;
+    border-color: #7E8AB8;
+    border-radius: 1.563rem;
+    cursor:pointer;
+    font-size:calc(0.8rem + (1.3 - 0.8) * ((100vw - 25rem) / (80 - 25)));
+
+}
+.contact-link{
+    display: contents;
+    text-decoration: none;
+    color: black;
+}
+
+.etitle{
+    text-align: center;
+}
+
+.eheader {
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 5% 10% 2% 10%; 
+    color:#5FC0E2;
+    font-weight: normal;
+    font-size: calc(1.25rem + (2 - 1.25) * ((100vw - 25rem) / (97.5 - 25)));
+ } 
+
+ .espan { 
+    background:#fff; 
+    padding:0 5%; 
+}
+
+.image-div{
+    display: grid;
+    min-width:40% ;
+}
+.sblock{
+    display: flex;
+    min-width: 65%;
+    padding:2% 5% 2% 5% ;
+}
+
+.sblock2{
+    display: flex;
+    flex-direction: column;
+    padding:2% 10%;
+    width:20%;
+}
+.simage{
+    border-radius: 15px 0px 0px 15px;    
+}
+.cause-div{
+    display: flex;
+    width: 100%;
+    border-radius: 0px 15px 15px 0px;
+    padding: 5% 0;
+    background-color: #F3F2E7;
+}
+.cause-inner{
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+   
+}
+.cause-amounts{
+    display: flex;
+    justify-content: space-between;
+}
+.service-span{
+    padding:3%;
+    text-align: center;
+    border: 1px solid;
+    border-style: none solid solid solid;
+    background-color: white;
+    font-size:calc(0.64rem + (1.25 - 0.64) * ((100vw - 25rem) / (97.5 - 25)));
+
+}
+.description{
+    font-size:calc(0.625rem + (1 - 0.625) * ((100vw - 25rem) / (97.5 - 25)));
+    color:#E29F72;
+    padding: 2%;
+}
+.eheader {
+    width: 100%;
+    border-bottom: 1px solid #707070; 
+    line-height: 4em;
+    margin:5% auto 5% auto; 
+    color:#5FC0E2;
+    font-weight: normal;
+    font-size: calc(1.25rem + (2 - 1.25) * ((100vw - 25rem) / (97.5 - 25)));
+  
+ } 
+ .eheadertop{
+     position: relative;
+     top:2px;
+     border-bottom: 3px solid black;
+     line-height: 0.1em;
+     width: 20%;
+ }
+.ubuntu{
+   font-size: calc(1.125rem + (2.25 - 1.125) * ((100vw - 25rem) / (80 - 25)));
+   color: #3A1700;
+}
+
+@media all and (max-width:767px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 5% 0 5%;
+    }
+    .sblock{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 80%;
+    }
+    .sblock2{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 80%;
+    }
+    .service-span{
+        width: 93.5%;
+    }
+    
+}
+@media all and (max-width:767px){
+    .image-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        padding: 2%;
+        width: 100%;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        transition: .5s ease;
+     }
+
+}

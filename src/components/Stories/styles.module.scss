@@ -1,0 +1,122 @@
+@import url("");
+.about-div{
+    padding:5% 5%;
+    background-color:#F3F2E7;
+
+
+}
+.btn-explore{
+    display: inline-block;
+    background-color: white;
+    max-width: 12.25rem;
+    color:#7E8AB8;
+    padding: 0.5rem calc(1.563rem + (2.25 - 1.563 ) * ((100vw - 25rem) / (80 - 25)));
+    border: solid;
+    border-color: #7E8AB8;
+    border-radius: 1.563rem;
+    cursor:pointer;
+    font-size:calc(0.8rem + (1.3 - 0.8) * ((100vw - 25rem) / (80 - 25)));
+
+}
+.b-link{
+    color:#3A1700;
+    width: 35%;
+    align-self: flex-end;
+    &:hover {
+        //background-color:rgb(80, 166, 197) ;
+        color:#E29F72;
+       
+      }
+
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 2%;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.description{
+    font-family: "Rowdies";
+    font-size:calc(0.625rem + (1 - 0.625) * ((100vw - 25rem) / (97.5 - 25)));
+    color:#E29F72;
+    margin:0;
+}
+
+.ubuntu{
+    font-family: "Rowdies";
+    font-size: calc(1.125rem + (2.25 - 1.125) * ((100vw - 25rem) / (80 - 25)));
+    color: #3A1700;
+ }
+
+.info{
+    font-weight: 300;
+    font-family: 'Manrope';
+    padding: 4% 2%;
+    text-align: left;
+    color: #3A1700;
+}
+.btn{
+    display: inline-block;
+    background-color: #F3F2E7;
+    max-width: 12.25rem;
+    color:#7E8AB8;
+    padding: 0.5rem calc(1.563rem + (2.25 - 1.563 ) * ((100vw - 25rem) / (80 - 25)));
+    border: solid;
+    border-color: #7E8AB8;
+    border-radius: 1.563rem;
+    cursor:pointer;
+    font-family: 'Manrope';
+    font-size:calc(0.625rem + (1 - 0.625) * ((100vw - 25rem) / (80 - 25)));
+
+}
+.quote-text{
+    text-align: center;
+    width: 40%;
+    margin:auto;
+    padding:4%;
+}
+.number{
+    font-size: large;
+    margin: 7%;
+    font-size: calc(1.125rem + (2.25 - 1.125) * ((100vw - 25rem) / (80 - 25)));
+
+
+}
+
+.projectsdiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.project-box{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding: 2%;
+    border-radius: 25px;
+    background-color: white;
+    flex-direction: row;
+}
+.project-text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Manrope';
+}
+
+@media all and (max-width:767px) {
+
+    
+    
+}

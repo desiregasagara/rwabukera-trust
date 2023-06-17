@@ -1,0 +1,252 @@
+.navbar{
+    font-family: 'Manrope';
+    background: #F3F2E7;
+}
+.hidden-div{
+    width: 12.25rem;
+}
+.wnav{
+    display: none;
+}
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border:1px solid;
+    border-style: none none solid none;
+
+}
+.changeme{
+    display: inline-flex;
+
+    background-color: #F3F2E7;
+ 
+}
+.border{
+    display: flex;
+    align-items: center;
+    border:1px solid;
+    border-style: none solid none solid;
+    text-decoration: none;
+    color:black ;
+}
+.border2{
+    display:none;
+    align-items: center;
+    border:1px solid;
+    border-style: none solid none solid;
+    text-decoration: none;
+}
+.border1{
+    display: flex;
+    align-items:center ;
+    border:1px solid;
+    border-style: none solid none none;
+    text-decoration: none;
+    color:black ;
+}
+.clogo{
+    cursor: pointer;
+    margin:1rem;
+    padding: 1rem;
+    max-width: 2px;
+    height: auto;
+}
+.clogo2{
+    cursor: pointer;
+    margin:1rem;
+    padding: 1rem;
+    max-width: 2px;
+    height: auto;
+    display: none;
+}
+.flex-logo{
+    display:none;
+}
+.number{
+    padding: 0 2rem;
+    color:grey;
+    display: flex;
+    align-items: center;
+    font-size: calc(0.8rem + (1.25 - 0.8) * ((100vw - 25rem) / (80 - 25)));
+    font-weight: 100;
+    cursor: pointer;
+    &:hover{
+        color:black;
+    }
+    
+}
+.number-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 2% 2% 4% 2%;
+    flex-wrap: nowrap;
+}
+.nav-inner{
+    display: contents;
+
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+    
+}
+li .navlist{
+    margin:0;
+
+}
+.navlist{
+    display: inline-block;
+    cursor: pointer;
+    /* font-size: calc(0.8rem + 0.45 * (100vw - 25rem) / 55); */
+    padding: 2% 20%;
+    font-size: 1rem;
+    border-radius: 25px;
+    list-style-type: none;
+    margin: 0;
+    text-decoration: none;
+    color: #3A1700;
+    &:hover {
+
+       
+      }
+}
+
+.navlink{
+    font-family: 'Manrope';
+    text-decoration: none;
+
+    &:visited{
+        color:#3A1700;
+    }
+
+}
+.logo{
+    min-width: 10rem;
+    max-width:12.25rem;
+    height: auto;
+    margin-bottom: 2.5%;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+.logo2{
+    max-width:12.25rem;
+    height: auto;
+    margin-bottom: 2.5%;
+    cursor: pointer;
+    display: none;
+}
+.btn{
+    display: inline-block;
+    background-color: rgb(243, 242, 231);
+    color: rgb(126, 138, 184);
+    padding: 0.5rem calc(1.563rem + (0.687 * (100vw - 25rem)) / 55);
+    border: solid rgb(126, 138, 184);
+    border-radius: 25rem;
+    cursor: pointer;
+    font-family: 'Manrope';
+    &:hover {
+        //background-color:rgb(80, 166, 197) ;
+        
+      }
+    
+}
+.label{
+    margin: 0 0 0 0;
+    font-size: 1.7rem ;
+    line-height: 1.875rem;
+    display: none;
+
+}
+.toggle{
+    display: none;
+}
+
+@media all and (max-width:768px){
+    .contact{
+        display:none;
+    }
+    .label{
+        display: inline-block;
+        cursor: pointer;
+        width:5%;
+        margin-left: 5%;
+    }
+    .navlinks, .navlink{
+        display: block;
+    }
+    .navlink{
+        padding:2% calc(0.8rem + (3.563 - 0.8) * ((100vw - 25rem) / (80 - 25)));
+       
+    }
+    .flex-logo{
+        display: initial;
+    }
+    .nav-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-inner{
+        text-align: center;
+        margin-top: 0.938rem;
+        width: 100%;
+        display: none;
+
+    }
+    .nav{
+        display: inline-block;
+        width: 85%;
+    }
+
+    .nav > * {
+        vertical-align:middle !important;  // Align children to middle of line
+    }
+    .wnav{
+        display: -webkit-inline-box;
+        margin-left:42%; 
+    }
+    input {
+        &:checked + .nav-inner {
+          display: block;
+        }
+        }
+    .logo{
+        max-width: 25%;
+    }
+    .logo2{
+        display:inline-block;
+
+    }
+    .clogo2{
+        width: 2%;
+        display: inline-block;
+    }
+    .border2{
+        display:inline-block;
+        margin-left: 50%;
+        border: none;
+    }
+    .btn{
+        margin-bottom: 2%;
+    }
+
+
+}
+
+@media all and (max-width:425px){
+    .border2{
+        margin-left: 38%;
+    }
+}

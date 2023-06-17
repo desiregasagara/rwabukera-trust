@@ -15,13 +15,21 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "gatsby": "^5.4.0",
+    "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-create-client-paths": "^4.9.0",
     "gatsby-plugin-google-gtag": "^5.4.0",
-    "gatsby-plugin-image": "^3.4.0",
-    "gatsby-plugin-sharp": "^5.4.0",
-    "gatsby-source-filesystem": "^5.4.0",
-    "gatsby-transformer-sharp": "^5.4.0",
+    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-manifest": "^5.7.0",
+    "gatsby-plugin-modal-routing": "^1.2.0",
+    "gatsby-plugin-sass": "^6.7.0",
+    "gatsby-plugin-sharp": "^5.8.1",
+    "gatsby-plugin-sitemap": "^6.7.0",
+    "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-transformer-sharp": "^5.8.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.58.3"
   }
 }

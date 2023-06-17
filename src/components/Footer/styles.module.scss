@@ -1,0 +1,169 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    margin:0;
+    text-align: center;
+    color:white;
+    
+}
+.words{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 25%;
+    gap: 10%;
+    color:white;
+}
+.wordsinner{
+    color:white;
+    text-decoration: underline;
+    font-family: 'Manrope';
+    
+    &:hover{
+        text-decoration: underline;
+        color: #FFFFFF;
+        
+    }
+
+
+
+}
+.social-images{
+    margin:0% 4%;
+}
+.images{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 25%;
+}
+.line{
+    width: 90%;
+    margin: auto;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF80;
+}
+.copyright{
+    color: #FFFFFF80;
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.contact-box1{
+    display: flex;
+    width: calc(100%/3);
+    gap: 10%;
+    padding: 2%;
+    align-items: center;
+    background-color:#EAE9DA ;
+}
+.contact-box2{
+    display: flex;
+    width: calc(100%/3);
+    gap: 10%;
+    align-items: center;
+    padding: 2%;
+    background-color: #E3E1CB
+
+}
+.contact-box3{
+    display: flex;
+    width: calc(100%/3);
+    gap: 10%;
+    align-items: center;
+    padding: 2%;
+    background-color: #CBC8AD;
+}
+.project-text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Manrope';
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+    font-family: 'Manrope';
+
+    
+}
+.footer-content{
+    display: flex;
+    width: 100%;
+    padding:4% 5%;
+    justify-content: space-between;
+    
+}
+
+.footer-container{
+    background-color:#D58E5E;
+    color:white;
+}
+.navlist{
+    display: inline-block;
+    cursor: pointer;
+    border-radius:25px ;
+    list-style-type:none;
+    margin:2% 0;
+
+    text-decoration: none;
+    color:#3A1700;
+    font-family: 'Manrope';
+
+
+    &:hover {
+        text-decoration: underline;
+        color: #FFFFFF;
+
+       
+      }
+}
+.navlists{
+    display: inline-block;
+    cursor: pointer;
+    border-radius:25px ;
+    list-style-type:none;
+    margin: 0 0 6% 0;
+    text-decoration: none;
+    color:#3A1700;
+    font-family: 'Manrope';
+
+
+    &:hover {
+        text-decoration: underline;
+        color: #FFFFFF;
+
+       
+      }
+}
+.navlink{
+    text-decoration: none;
+    color:#FFFFFFBF;
+    font-family: "Manrope";
+
+    &:hover{
+        text-decoration: underline;
+        color: #FFFFFF;
+        
+    }
+
+}
+.navlinkh{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family: "Manrope";
+
+    &:hover{
+        text-decoration: underline;
+        color: #FFFFFF;
+        
+    }
+
+}

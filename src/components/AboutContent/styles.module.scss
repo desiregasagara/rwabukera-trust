@@ -1,0 +1,35 @@
+@import url("");
+p{
+    margin-bottom: 4%;
+    font-family: "manrope";
+    color: rgba(58, 23, 0, 0.75019607843);
+
+}
+li{
+    margin-bottom: 2%;
+    
+}
+.link-to-apply{
+    color: #E29F72;
+    &:hover {
+        color:#bb703e;
+    }
+}
+.aboutcontent-div{
+    padding:8% 5%;
+    background-color:white;
+    min-height:60vh ;
+
+
+}
+.ubuntu{
+    font-size: calc(1.5rem + (3 - 1.5) * ((100vw - 25rem) / (80 - 25)));
+    margin-bottom: 2%;
+    color: #3A1700;
+ }
+
+@media all and (max-width:767px) {
+
+    
+    
+}
