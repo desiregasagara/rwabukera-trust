@@ -12,6 +12,7 @@ import Footer from '../components/Footer'
 import Stories from '../components/Stories'
 import Donation from '../components/Donation'
 import News from '../components/News'
+import Banner from '../components/Banner'
 
 
 const IndexPage = () =>
@@ -32,15 +33,14 @@ const IndexPage = () =>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <title>Victoria Travel Services | Book Flights and Holidays | Travel Leaders Rwanda  </title>
       </head>
+      <Banner/>
       <NavBar/>
       <Hero/>
       <Care/>
       <Causes/>
       <About/>
       <Donation/>
-      <Events/>
       <Stories/>
-      <News/>
       <Footer/>
     </div>
 

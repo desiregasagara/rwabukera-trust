@@ -1,4 +1,5 @@
 import React,{useContext} from "react";
+//From Gatsby
 import {Router} from '@reach/router'
 import { navigate } from "gatsby";
 import { IdentityContext } from "../../identity-context";
@@ -25,6 +26,7 @@ const Login = () => {
 
 const App = () => {
     return (
+        
         <Router basepath="/app">
             <PrivateRoute component={Dashboard} path='/dashboard'/>
             <Login path='/login'/>

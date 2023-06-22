@@ -6,7 +6,7 @@ module.exports = {
     title: `Rwabukera Trust Site`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp","gatsby-plugin-sass","gatsby-plugin-modal-routing","gatsby-plugin-anchor-links", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp","gatsby-plugin-sass","gatsby-plugin-modal-routing","gatsby-plugin-anchor-links", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
@@ -31,6 +31,6 @@ module.exports = {
     //Anything added here is going to be a client only route
     options:{prefixes:['/app/*']},
   },
-  `gatsby-plugin-sitemap`,
+  `gatsby-plugin-sitemap`
 ]
 };

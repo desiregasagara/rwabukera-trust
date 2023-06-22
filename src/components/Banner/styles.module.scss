@@ -1,0 +1,19 @@
+.banner-back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+    color: white;
+    background-color: #e1a075;
+}
+.navlink{
+    text-decoration: none;
+    font-size: 22px;
+    color: #3A1700;
+    &:visited{
+        color:#3A1700;
+    }
+
+}
