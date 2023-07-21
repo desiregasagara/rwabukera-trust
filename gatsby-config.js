@@ -25,11 +25,6 @@ module.exports = {
       display: `standalone`,
       icon: `src/images/favicon.png`
     },
-  },        
-  {
-    resolve:'gatsby-plugin-create-client-paths',
-    //Anything added here is going to be a client only route
-    options:{prefixes:['/app/*']},
   },
   `gatsby-plugin-sitemap`
 ]

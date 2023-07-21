@@ -1,36 +1,38 @@
 {
-  "name": "rwabukera-trust-site",
-  "version": "1.0.0",
-  "private": true,
-  "description": "rwabukera-trust-site",
-  "author": "Desire Gasagara",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "bootstrap": "^5.2.3",
-    "gatsby": "^5.4.0",
-    "gatsby-plugin-anchor-links": "^1.2.1",
-    "gatsby-plugin-create-client-paths": "^4.9.0",
-    "gatsby-plugin-google-gtag": "^5.4.0",
-    "gatsby-plugin-image": "^3.8.0",
-    "gatsby-plugin-manifest": "^5.7.0",
-    "gatsby-plugin-modal-routing": "^1.2.0",
-    "gatsby-plugin-sass": "^6.7.0",
-    "gatsby-plugin-sharp": "^5.8.1",
-    "gatsby-plugin-sitemap": "^6.7.0",
-    "gatsby-source-filesystem": "^5.8.0",
-    "gatsby-transformer-sharp": "^5.8.0",
-    "netlify-identity-widget": "^1.9.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.58.3"
-  }
+    "name": "rwabukera-trust-site",
+    "version": "1.0.0",
+    "private": true,
+    "description": "rwabukera-trust-site",
+    "author": "Desire Gasagara",
+    "dependencies": {
+        "gatsby": "^5.11.0",
+        "gatsby-plugin-anchor-links": "^1.2.1",
+        "gatsby-plugin-image": "^3.11.0",
+        "gatsby-plugin-manifest": "^5.11.0",
+        "gatsby-plugin-modal-routing": "^1.2.0",
+        "gatsby-plugin-sass": "^6.7.0",
+        "gatsby-plugin-sharp": "^5.11.0",
+        "gatsby-plugin-sitemap": "^6.11.0",
+        "gatsby-source-filesystem": "^5.11.0",
+        "gatsby-transformer-sharp": "^5.11.0",
+        "netlify-identity-widget": "^1.9.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "overrides": {
+        "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
+            "react": "^18.2.0"
+        }
+    },
+    "keywords": [
+        "gatsby"
+    ],
+    "license": "0BSD",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean"
+    }
 }
