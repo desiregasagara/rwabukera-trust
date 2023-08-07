@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 2rem 5%;
     margin:0;
     text-align: center;
@@ -28,8 +28,15 @@
 
 
 }
+.image-icon{
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+}
+
 .social-images{
     margin:0% 4%;
+    width: 20%;
 }
 .images{
     display: flex;
@@ -63,8 +70,9 @@
 }
 .contact-box2{
     display: flex;
-    width: calc(100%/3);
-    gap: 10%;
+    width: 100%;
+    gap: 5%;
+    justify-content: center;
     align-items: center;
     padding: 2%;
     background-color: #E3E1CB
@@ -164,6 +172,37 @@
         text-decoration: underline;
         color: #FFFFFF;
         
+    }
+
+}
+
+@media all and (max-width:768px){
+    .footer-content{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding: 4% 5%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        padding: 2rem 5%;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        color: white;
+}
+    .words{
+        display: flex;
+        justify-content: space-around;
+        min-width: 25%;
+        width: 100%;
+        gap: 10%;
+        color: white;
     }
 
 }

@@ -33,15 +33,12 @@ const Footer =  () => {
 
                                 <li className={styles.navlist}><Link to= "/about" className={styles.navlink}>About</Link></li>
                                 <li className={styles.navlist}><Link to = "/apply" className={styles.navlink}>Applications</Link></li>
-                                <li className={styles.navlist}><a href = "" className={styles.navlink}>Member's portal</a></li>
                             </ul>
                         </nav>
 
                     </div>
                     <div className={styles.images}>
-                        <a href='/'><StaticImage src="../../images/facebook.png" className={styles.socialImages}></StaticImage></a>
-                        <a href='/'><StaticImage src="../../images/insta.png" className={styles.socialImages}></StaticImage></a>
-                        <a href='/'><StaticImage src="../../images/twitter.png" className={styles.socialImages}></StaticImage></a>
+                        <a href='/'className={styles.imageIcon} ><StaticImage src="../../images/mail2.png" className={styles.socialImages}></StaticImage></a>
 
 
                     </div>
@@ -49,11 +46,13 @@ const Footer =  () => {
                 <hr className={styles.line}></hr>
                 <div className={styles.container}>
                     <p className={styles.copyright}>Copyright &#169;{year} Rwabukera Trust. All rights reserved</p>
+                    {/*
                     <div className={styles.words}>
                         <a href='/' className={styles.wordsinner}>Terms of Use</a>
                         <a href='/' className={styles.wordsinner}>Privacy Policy</a>
                     </div>
 
+                    */}
                 </div>
             </div>
         </div>

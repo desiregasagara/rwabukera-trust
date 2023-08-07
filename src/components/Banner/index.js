@@ -12,8 +12,8 @@ import { Link } from 'gatsby'
 const Banner = () => {
     return(
         <div className={styles.bannerBack}>
-            <h1>Our scholarship application window is closing soon!</h1>
-            <Link href=""  className={styles.navlink}>Check whether you're eligible</Link>
+            <h1 className={styles.bannerHeader}>Our scholarship application window is closing soon!</h1>
+            <Link to="/apply"  className={styles.navlink}>Check whether you're eligible</Link>
         </div>
     )
 }

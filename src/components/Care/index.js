@@ -9,7 +9,7 @@ const Care = () => {
         <div id="care" className={styles.destinations}>
             <div className={styles.etitle} >
                 <h3 className={styles.description}> OUR CARE POINTS</h3>
-                <q className={styles.ubuntu}>"I am because we are"</q>
+                <q className={styles.ubuntu}>I am because we are</q>
             </div>
         <div className={styles.carepointBoxes}>
             <div className={styles.careContainer}>
@@ -31,7 +31,7 @@ const Care = () => {
                     <div class="progress" style={{height:"0.25rem",borderRadius:"2.5rem", margin:"5% 0%"}}>
                             <div class="progress-bar" role="progressbar" style={{width:"35%", backgroundColor: "black"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>                    
-                    <p className={styles.boxDescription}>Whatever it is that you care about, there will be a charity working on it.</p>
+                    <p className={styles.boxDescription}>We raise awareness for situations and issues that would otherwise not be seen</p>
                 </div>
             </div>
             <div className={styles.careContainer}>
@@ -42,7 +42,7 @@ const Care = () => {
                     </div>
                     <div class="progress" style={{height:"0.25rem",borderRadius:"2.5rem", margin:"5% 0%"}}>
                             <div class="progress-bar" role="progressbar" style={{width:"35%", backgroundColor: "black"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>                    <p className={styles.boxDescription}>People who care about a cause so that they can make a difference it is that you care about.</p>
+                    </div>                    <p className={styles.boxDescription}>We support the futures of the next bright minds not yet given a chance to shine</p>
                 </div>
                 <div className={styles.carepointBox}>
                     <div className={styles.logoBox}>
@@ -52,11 +52,10 @@ const Care = () => {
                     <div class="progress" style={{height:"0.25rem",borderRadius:"2.5rem", margin:"5% 0%"}}>
                             <div class="progress-bar" role="progressbar" style={{width:"35%", backgroundColor: "black"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>                    
-                    <p className={styles.boxDescription}>Charities help in lots of different ways, but the main ways are by providing direct help.</p>
+                    <p className={styles.boxDescription}>We help in lots of different ways, but the main ways are by providing direct help.</p>
                 </div>
             </div>
         </div>
-        <hr className={styles.line}></hr>
 
         </div>
         

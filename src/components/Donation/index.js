@@ -2,7 +2,8 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import * as styles from './styles.module.scss';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-
+import { Link } from 'gatsby'
+import CheckoutDonation from "../CheckoutDonation/checkout";
 
 const Donation = () =>{
     return(
@@ -46,11 +47,11 @@ const Donation = () =>{
 
                             <div >
                                 <h3 className={styles.ubuntu}> Make A Donation</h3>
-                                <p className={styles.description}>A charity must have one or more of the purposes which have been defined in law.</p>
+                                <p className={styles.description}>Your donations help create futures that felt impossible</p>
                             </div>
                             <div className={styles.buttonDiv}>
-                                <a href = ""  className={styles.bLink} ><button className={styles.btnContact}>CONTACT US</button></a>
-                                <a href = ""  className={styles.bLink} ><button className={styles.btnDonation}>MAKE A DONATION</button></a>
+                                <Link to = "/contact"  className={styles.bLink} ><button className={styles.btnContact}>CONTACT US</button></Link>
+                                <CheckoutDonation/>
                             </div>
                   
                     </div>

@@ -3,6 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import * as styles from './styles.module.scss';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
+
 const Events = () => {
     return(
         

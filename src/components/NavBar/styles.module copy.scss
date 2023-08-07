@@ -4,7 +4,6 @@
 }
 .hidden-div{
     width: 12.25rem;
-    color:#F3F2E7 ;
 }
 .wnav{
     display: none;
@@ -176,29 +175,20 @@ li .navlist{
 }
 
 @media all and (max-width:768px){
-    .hidden-div{
-        display: none;
-    }
-    .navbar{
-        text-align: right;
-    }
     .contact{
         display:none;
     }
-    .logo{
-        min-width: 0;
-    }
     .label{
-        display: flex;
-        /* margin-left: 60%; */
-        width: 100%;
-        justify-content: flex-end;
+        display: inline-block;
+        cursor: pointer;
+        width:5%;
+        margin-left: 5%;
     }
     .navlinks, .navlink{
         display: block;
     }
     .navlink{
-        padding:4% 5%;
+        padding:2% calc(0.8rem + (3.563 - 0.8) * ((100vw - 25rem) / (80 - 25)));
        
     }
     .flex-logo{
@@ -207,8 +197,7 @@ li .navlist{
     .nav-inner{
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end;
+        align-items: center;
     }
     .nav-inner{
         text-align: center;
@@ -219,17 +208,11 @@ li .navlist{
     }
     .nav{
         display: inline-block;
-        width: 75%;
+        width: 85%;
     }
-
 
     .nav > * {
         vertical-align:middle !important;  // Align children to middle of line
-    }
-    .navlist{
-        display: flex;
-        justify-content: flex-end;
-        text-align: end;
     }
     .wnav{
         display: -webkit-inline-box;
@@ -237,13 +220,11 @@ li .navlist{
     }
     input {
         &:checked + .nav-inner {
-          display: flex;
+          display: block;
         }
         }
     .logo{
-        width: 35%;
-        margin-top: -0.25%;
-        display: inline-block;
+        max-width: 25%;
     }
     .logo2{
         display:inline-block;
@@ -269,5 +250,4 @@ li .navlist{
     .border2{
         margin-left: 38%;
     }
-
 }

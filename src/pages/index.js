@@ -37,10 +37,10 @@ const IndexPage = () =>
       <NavBar/>
       <Hero/>
       <Care/>
-      <Causes/>
       <About/>
       <Donation/>
-      <Stories/>
+      <Causes/>
+
       <Footer/>
     </div>
 

@@ -19,7 +19,7 @@
 .button-div{
     display: flex;
     justify-content: flex-end;
-    gap: 40px;
+    gap: 5%;
     width: 100%;
 }
 
@@ -57,7 +57,7 @@
 .btn-contact{
     display: inline-block;
     background-color: #D58E5E;
-    width: 14.25rem;
+    width: auto;
     color:white;
     padding: 0.5rem calc(1.563rem + (2.25 - 1.563 ) * ((100vw - 25rem) / (80 - 25)));
     border: solid;
@@ -71,7 +71,7 @@
 .btn-donation{
     display: inline-block;
     background-color:#FFB200;
-    width: 15rem;
+    width: auto;
     color:white;
     padding: 0.5rem calc(1.563rem + (2.25 - 1.563 ) * ((100vw - 25rem) / (80 - 25)));
     border: solid;
@@ -118,6 +118,16 @@
 }
 @media all and (max-width:767px) {
 
-    
+    .slice-container{
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2%;
+    }
+    .button-div{
+        justify-content: space-around;
+    }
+    .ubuntu{
+        padding: 2%;
+    }
     
 }

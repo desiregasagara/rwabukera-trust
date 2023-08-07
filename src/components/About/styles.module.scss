@@ -1,9 +1,38 @@
 @import url("");
 .about-div{
-    padding:10% 5%;
+    padding:5% 5%;
     background-color:#F3F2E7;
 
 
+}
+.grid-setup{
+    display: grid;
+    background-color:#F3F2E7;
+     width:100%;
+     margin-bottom:0.5%;
+    grid-template-columns: repeat(2, 1fr); 
+}
+.img-grid{
+    grid-area: 1/1 / auto / auto;
+    // You can set a maximum height for the image, if you wish.
+    width: auto;
+    margin-left: auto;
+}
+.inner-grid{
+    // By using the same grid area for both, they are stacked on top of each other
+    grid-area: 1/2;
+    position: relative;
+
+
+    // This centers the other elements inside the hero component
+    place-items: center;
+    display: grid;
+}
+.hero-image{
+    height:100% ;
+    width:100%;
+    bottom:0;
+    left:auto;
 }
 .about{
     display: grid;
@@ -28,10 +57,19 @@
     text-align: left;
     color: #3A1700;
 }
+.fact-header{
+    font-family: 'Manrope';
+    font-size: 20px;
+}
+.fact-sub{
+    font-family: 'Manrope';
+    font-size: 20px;
+    color:#3A1700;
+
+}
 .btn{
     display: inline-block;
     background-color: #F3F2E7;
-    max-width: 12.25rem;
     color:#7E8AB8;
     padding: 0.5rem calc(1.563rem + (2.25 - 1.563 ) * ((100vw - 25rem) / (80 - 25)));
     border: solid;
@@ -51,8 +89,8 @@
 .number{
     font-size: large;
     margin: 7%;
-    font-size: calc(1.125rem + (2.25 - 1.125) * ((100vw - 25rem) / (80 - 25)));
-
+    font-size: calc(1.25rem + (2.75 - 1.25) * ((100vw - 25rem) / (80 - 25)));
+    font-weight: bold;
 
 }
 
@@ -77,6 +115,31 @@
 }
 @media all and (max-width:767px) {
 
-    
+        .img-grid{
+            grid-area: auto;
+        }
+        .grid-setup{
+            grid-template-columns: none;
+        }
+        .inner-grid{
+            grid-area: 2/1;
+
+        }
+        .header{
+            margin-top: 0%;
+        }
+        .hero-container{
+            padding: 0 10% 4% 10%;
+        }
+        .about{
+            grid-template-columns: none;
+        }
+        .projectsdiv{
+            flex-direction: column;
+        }
+        .project-box{
+            width: 100%;
+            margin:2%;
+        }
     
 }

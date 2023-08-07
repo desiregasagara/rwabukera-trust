@@ -23,7 +23,7 @@
 }
 .btn-title{
     display: inline-block;
-    width: 30%;
+    min-width: 30%;
     margin: 4% 55% 0% 0%;
     background-color: #E29F72;
     color: white;
@@ -73,6 +73,7 @@
 
 .image-div{
     display: grid;
+    width: 100%;
 }
 .sblock{
     display: flex;

@@ -20,7 +20,7 @@
 }
 .b-link{
     color:#3A1700;
-    width: 35%;
+    margin: 0% 15%;
     align-self: flex-end;
     &:hover {
         //background-color:rgb(80, 166, 197) ;
@@ -34,8 +34,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
     padding: 2%;
+    margin: 0% 22%;
+
     border-radius: 1rem;
     background-color: white;
 }
@@ -87,6 +88,9 @@
     margin:auto;
     padding:4%;
 }
+.text{
+    padding: 5%;
+}
 .number{
     font-size: large;
     margin: 7%;
@@ -116,7 +120,12 @@
 }
 
 @media all and (max-width:767px) {
+    .quote-container{
+        margin: 0% 11%;
 
-    
+    }
+    .b-link{
+        margin: 0% 7%;
+    }
     
 }

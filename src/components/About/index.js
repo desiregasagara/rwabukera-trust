@@ -2,6 +2,8 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import * as styles from './styles.module.scss';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import AboutImage from "../../images/aboutpic.png"
+import { Link, navigate } from "gatsby"
 
 
 const About = () =>{
@@ -15,77 +17,72 @@ const About = () =>{
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         </head>
-        <div className={styles.about}>
-                <StaticImage
-                    imgStyle={{height:"100%" ,width:"auto",bottom:"0",left:"auto"}}
-                    style={{
-                    gridArea: "1/1 / auto / auto",
-                    // You can set a maximum height for the image, if you wish.
-                    //width: "100%",
-                    //height: "100%",
+
+        <div className={styles.gridSetup} style={{}}>
+          <div  className={styles.imgGrid}>
+          <picture>
+                <source media="(max-width: 799px)" srcset={AboutImage}></source>
+                <source media="(min-width: 800px)" srcset={AboutImage}></source>
+                <img
+                  className={styles.heroImage}
+                  //layout="fullWidth"
                 
-                    }}
-                    //layout="fullWidth"
-                
-                    // You can optionally force an aspect ratio for the generated image
-                    
-                    // This is a presentational image, so the alt should be an empty string
-                    alt="Santorini,Greece by Jonathan Gallegos via Unsplash"
-                    // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
-                    src={
-                        '../../images/aboutpic.png'
-                    }
-                    
-                />
-                <div
-                    style={{
-                    // By using the same grid area for both, they are stacked on top of each other
-                    gridArea: "1/2",
-                    position: "relative",
-                    
-                
-                    // This centers the other elements inside the hero component
-                    placeItems: "center",
-                    display: "grid",
-                    }}
-                >
+                  // You can optionally force an aspect ratio for the generated image
+                  
+                  // This is a presentational image, so the alt should be an empty string
+                  alt="Santorini,Greece by Jonathan Gallegos via Unsplash"
+                  // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
+                  src={
+                      AboutImage
+                  }
+              
+              ></img>
+            </picture>
+            </div>
+      <div
+
+        className={styles.innerGrid}
+      >
                     {/* Any content here will be centered in the component */}
                     <div className={styles.heroContainer}>
                             <h3 className={styles.description}> ABOUT US</h3>
-                            <p className={styles.ubuntu}>Lorem ipsum dolor sit amet</p>
-                            <p className={styles.info}>The practice of charity means the voluntary giving of help to those in need, as a humanitarian act. There are a number of philosophies.</p>
-                            <a href = ""  className={styles.bLink} ><button className={styles.btn}>ABOUT US</button></a>
+                            <p className={styles.ubuntu}>Embrace the highest form of love</p>
+                            <p className={styles.info}>Our aim is to encourage 'the love of educational pursuit' as instilled in us by our elders. </p>
+                            <Link to= "/about"  className={styles.bLink}> <button className={styles.btn}>Find out more</button></Link>
                     </div>
 
                 </div>
 
         </div>
-        <p className={styles.quoteText}>Whatever it is that you care about, there will be a charity working on it.</p>
+        <p className={styles.quoteText}>A good education is a foundation for a better future</p>
         <div className={styles.projectsdiv}>
-            <div className={styles.projectBox}>
-                <p className={styles.number}>42</p>
+             <div className={styles.projectBox}>
+                <p className={styles.number}>20%</p>
                 <div className={styles.projectText}>
-                    <p style={{fontFamily:'Manrope',fontSize:'20px'}}>People</p>
-                    <p style={{fontFamily:'Manrope',fontSize:'16px',color:'#3A1700'}}>Prevention of Cruelty</p>
+                    <p className={styles.factHeader}>more children in Africa</p>
+                    <p className={styles.factSub}>have enrolled in education in the past 10 years</p>
+                </div>
+
+            </div>
+
+            <div className={styles.projectBox}>
+                <p className={styles.number}>30%</p>
+                <div className={styles.projectText}>
+                    <p  className={styles.factHeader}>of children aged 6-14</p>
+                    <p className={styles.factSub}>are out of education in Africa. </p>
                 </div>
 
             </div>
             <div className={styles.projectBox}>
-                <p className={styles.number}>73</p>
+                <p className={styles.number}>100%</p>
                 <div className={styles.projectText}>
-                    <p>Society</p>
-                    <p>Direct Relief</p>
+                    <p className={styles.factHeader}>of your donations</p>
+                    <p className={styles.factSub}>offer direct relief.</p>
                 </div>
 
             </div>
-            <div className={styles.projectBox}>
-                <p className={styles.number}>09</p>
-                <div className={styles.projectText}>
-                    <p>Project</p>
-                    <p>Research Hospital</p>
-                </div>
 
-            </div>
+
 
 
         </div>

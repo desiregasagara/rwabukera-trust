@@ -5,6 +5,20 @@
     padding: 0 10%;
     text-align: center;
 }
+.btn-donation{
+    display: inline-block;
+    background-color:#FFB200;
+    width: auto;
+    color:white;
+    padding: 0.5rem calc(1.563rem + (2.25 - 1.563 ) * ((100vw - 25rem) / (80 - 25)));
+    border: solid;
+    border-color:#FFB200;
+    border-radius: 1.563rem;
+    cursor:pointer;
+    font-family: 'Manrope';
+    font-size:calc(0.625rem + (0.875 - 0.625) * ((100vw - 25rem) / (80 - 25)));
+
+}
 .grid-setup{
     display: grid;
     background-color:#F3F2E7;

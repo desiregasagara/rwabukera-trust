@@ -21,7 +21,7 @@ const Stories = () =>{
         <h3 className={styles.description}> Child Stories</h3>
         <p className={styles.ubuntu}>Read Stories</p>
         <div className={styles.quoteContainer}>
-            <p>"Charity is the act of giving help to those in need of it. It is a humanitarian act. It involves giving money, goods or time and effort to those who need it. It is done without expecting something in return."</p>
+            <p className={styles.text}>"Charity is the act of giving help to those in need of it. It is a humanitarian act. It involves giving money, goods or time and effort to those who need it. It is done without expecting something in return."</p>
             <a href = ""  className={styles.bLink} style={{display:"flex",justifyContent:"center",alignSelf:"center"}}>Read more in our newsletter!</a>
         </div>
         </div>

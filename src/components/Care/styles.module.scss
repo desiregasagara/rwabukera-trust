@@ -17,6 +17,7 @@
     border-radius: 15px;
     padding: 7%;
     margin: 5%;
+    min-height: 255px;
     background-color: #F3F2E7;
 }
 .carepoint-boxes{
@@ -173,6 +174,9 @@
         width: 100%;
         opacity: 1;
         transition: .5s ease;
+     }
+     .carepoint-boxes{
+        grid-template-columns: none;
      }
 
 }

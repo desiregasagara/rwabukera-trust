@@ -16,7 +16,7 @@ const Causes = () =>{
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         </head>
             <div className={styles.etitle} >
-                <h3 className={styles.description}> OUR CASES</h3>
+                <h3 className={styles.description}> OUR CAUSES</h3>
                 <p className={styles.ubuntu}>Our Recent Causes</p>
             </div>
             <div className={styles.container}>
@@ -34,7 +34,7 @@ const Causes = () =>{
                         // You can optionally force an aspect ratio for the generated image
                     
                         // This is a presentational image, so the alt should be an empty string
-                        src='../../images/ticket.jpeg' alt="Air Tickets by Amir Hanna via Unsplash"
+                        src='../../images/doug-linstedt-jEEYZsaxbH4-unsplash.jpg' alt="Air Tickets by Amir Hanna via Unsplash"
                         
                         formats={["auto", "webp", "avif"]}
                     />
@@ -47,6 +47,7 @@ const Causes = () =>{
                         placeItems: "center",
                         textAlign:"center",
                         cursor: "pointer",
+                        minHeight:"300px",
                         }}
                     >
                         {/* Any content here will be centered in the component */}
@@ -55,7 +56,7 @@ const Causes = () =>{
                     </div>
                     <div className={styles.causeDiv}>
                         <div className={styles.causeInner}>
-                        <p>Bring together people who care about a cause</p>
+                        <p>Example Cause</p>
                         <div className={styles.causeAmounts}>
                         <p style={{marginBottom:"0"}}>$4,373</p>
                         <p style={{marginBottom:"0"}}>$10000 Goal</p>
@@ -88,7 +89,7 @@ const Causes = () =>{
                         // You can optionally force an aspect ratio for the generated image
                     
                         // This is a presentational image, so the alt should be an empty string
-                        src='../../images/ticket.jpeg' alt="Air Tickets by Amir Hanna via Unsplash"
+                        src='../../images/joel-muniz-3k3l2brxmwQ-unsplash.jpg' alt="Air Tickets by Amir Hanna via Unsplash"
                         
                         formats={["auto", "webp", "avif"]}
                     />
@@ -101,6 +102,7 @@ const Causes = () =>{
                         placeItems: "center",
                         textAlign:"center",
                         cursor: "pointer",
+                        minHeight:"300px",
                         }}
                     >
                         {/* Any content here will be centered in the component */}
@@ -109,7 +111,8 @@ const Causes = () =>{
                     </div>                    
                     <div className={styles.causeDiv}>
                         <div className={styles.causeInner}>
-                        <p>Bring together people who care about a cause</p>
+                        <p>Example Cause 1
+                        </p>
                         <div className={styles.causeAmounts}>
                         <p style={{marginBottom:"0"}}>$5,200</p>
                         <p style={{marginBottom:"0"}}>$7,000 Goal</p>
@@ -141,7 +144,7 @@ const Causes = () =>{
                         // You can optionally force an aspect ratio for the generated image
                     
                         // This is a presentational image, so the alt should be an empty string
-                        src='../../images/ticket.jpeg' alt="Air Tickets by Amir Hanna via Unsplash"
+                        src='../../images/bill-wegener-LqOO5Ko0zSo-unsplash.jpg' alt="Air Tickets by Amir Hanna via Unsplash"
                         
                         formats={["auto", "webp", "avif"]}
                     />
@@ -154,6 +157,7 @@ const Causes = () =>{
                         placeItems: "center",
                         textAlign:"center",
                         cursor: "pointer",
+                        minHeight:"300px",
                         }}
                     >
                         {/* Any content here will be centered in the component */}
@@ -162,7 +166,7 @@ const Causes = () =>{
                     </div>
                     <div className={styles.causeDiv}>
                         <div className={styles.causeInner}>
-                        <p>Bring together people who care about a cause</p>
+                        <p>Example Cause 2</p>
                         <div className={styles.causeAmounts}>
                         <p style={{marginBottom:"0"}}>$27,890</p>
                         <p style={{marginBottom:"0"}}>$50,000 Goal</p>
@@ -178,7 +182,6 @@ const Causes = () =>{
                 </div>
                 </AnchorLink>
             </div>
-            <a href = ""  className={styles.bLink} style={{display:"flex",justifyContent:"center"}}><button className={styles.btnExplore}>Explore All</button></a>
 
             <div style={{margin:" 2% 10%",}}></div>
         </div>

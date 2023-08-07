@@ -30,7 +30,6 @@ const GeneralNav = () => {
                     <ul className={styles.navlinks}>
                          <li className={styles.navlist}><Link to= "/about" className={styles.navlink}>About</Link></li>
                          <li className={styles.navlist}><Link to = "/apply" className={styles.navlink}>Applications</Link></li>
-                         <li className={styles.navlist}><a href = "" className={styles.navlink}>Member's portal</a></li>
 
                     </ul>
                 </nav>
