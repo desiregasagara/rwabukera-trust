@@ -21,13 +21,14 @@ const GeneralNav = () => {
                 <input type="checkbox" id="toggle" className={styles.toggle}/>
 
                 <div className={styles.navInner}>
-
                 <Link to='/' className={styles.linkLogo}><StaticImage src='../../images/innerlogo.png' alt=' Victoria Travel Services Logo' className={styles.logo}/></Link>
+
 
                 <nav className={styles.changeme} >
                 
 
                     <ul className={styles.navlinks}>
+                        <li className={styles.navlist1}><Link to= "/" className={styles.navlink1}>Home</Link></li>
                          <li className={styles.navlist}><Link to= "/about" className={styles.navlink}>About</Link></li>
                          <li className={styles.navlist}><Link to = "/apply" className={styles.navlink}>Applications</Link></li>
 

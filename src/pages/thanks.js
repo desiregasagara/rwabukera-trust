@@ -4,14 +4,15 @@ import '../Sass/basics.scss'
 import { Link } from 'gatsby'
 import Footer from '../components/Footer'
 import GeneralNav from '../components/GeneralNav'
-import ContactSection from '../components/ContactSection'
+import SuccessContent from '../components/Success/success'
+
 function getPageUrl(){
-  if (typeof window !== "undefined"){
-    let webAddress = window.location.href;
+    if (typeof window !== "undefined"){
+        let webAddress = window.location.href;
     let result = webAddress.includes("index");
 
     return result
-  }
+    }
 }
 
 function AreweHome({result}){
@@ -21,7 +22,7 @@ function AreweHome({result}){
     }
     return <GeneralNav/>
 }
-const ContactPage = () =>
+const Apply = () =>
 {
   return(
     <div>
@@ -40,7 +41,7 @@ const ContactPage = () =>
         <title>Rwabukera Trust | Supporting education through charity  </title>
       </head>
       <AreweHome/>
-      <ContactSection/>
+      <SuccessContent/>
       <Footer/>
     </div>
 
@@ -48,5 +49,5 @@ const ContactPage = () =>
 
 }
 
-export const Head = () => <title>Contact Us</title>
-export default ContactPage
+export const Head = () => <title>About Us</title>
+export default Apply

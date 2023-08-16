@@ -124,8 +124,24 @@ li .navlist{
        
       }
 }
+.navlist1{
+    display: none;
+    cursor: pointer;
+}
 
 .navlink{
+    font-family: 'Manrope';
+    text-decoration: none;
+
+    &:visited{
+        color:#3A1700;
+    }
+
+}
+
+
+.navlink1{
+    display: none;
     font-family: 'Manrope';
     text-decoration: none;
 
@@ -174,21 +190,42 @@ li .navlist{
 }
 
 @media all and (max-width:768px){
+    .hidden-div{
+        display: none;
+    }
+    .navbar{
+        text-align: right;
+    }
     .contact{
         display:none;
     }
+    .logo{
+        min-width: 0;
+    }
     .label{
-        display: inline-block;
-        cursor: pointer;
-        width:5%;
-        margin-left: 5%;
+        display: flex;
+        /* margin-left: 60%; */
+        width: 100%;
+        justify-content: flex-end;
     }
     .navlinks, .navlink{
         display: block;
     }
     .navlink{
-        padding:2% calc(0.8rem + (3.563 - 0.8) * ((100vw - 25rem) / (80 - 25)));
+        padding:4% 5%;
        
+    }
+
+    .navlink1{
+        display: block;
+        padding:4% 5%;
+        font-family: 'Manrope';
+        text-decoration: none;
+
+        &:visited{
+            color:#3A1700;
+        }
+
     }
     .flex-logo{
         display: initial;
@@ -196,7 +233,8 @@ li .navlist{
     .nav-inner{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
     .nav-inner{
         text-align: center;
@@ -207,11 +245,38 @@ li .navlist{
     }
     .nav{
         display: inline-block;
-        width: 85%;
+        width: 75%;
     }
+
 
     .nav > * {
         vertical-align:middle !important;  // Align children to middle of line
+    }
+    .navlist{
+        display: flex;
+        justify-content: flex-end;
+        text-align: end;
+    }
+
+    .navlist1{
+        display: flex;
+        cursor: pointer;
+        /* font-size: calc(0.8rem + 0.45 * (100vw - 25rem) / 55); */
+        padding: 2% 20%;
+        font-size: 1rem;
+        border-radius: 25px;
+        list-style-type: none;
+        margin: 0;
+        text-decoration: none;
+        color: #3A1700;
+        &:hover {
+    
+           
+          }
+        justify-content: flex-end;
+        text-align: end;
+
+
     }
     .wnav{
         display: -webkit-inline-box;
@@ -219,11 +284,13 @@ li .navlist{
     }
     input {
         &:checked + .nav-inner {
-          display: block;
+          display: flex;
         }
         }
     .logo{
-        max-width: 25%;
+        display: none;
+        width: 35%;
+        margin-top: -0.25%;
     }
     .logo2{
         display:inline-block;
@@ -249,4 +316,5 @@ li .navlist{
     .border2{
         margin-left: 38%;
     }
+
 }

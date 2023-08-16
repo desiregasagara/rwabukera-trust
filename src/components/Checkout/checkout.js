@@ -7,7 +7,7 @@ import * as styles from './styles.module.scss';
 let stripePromise
 const getStripe = () => {
   if (!stripePromise) {
-    stripePromise = loadStripe("pk_test_51NP2z5FvrpXTb6ZSFQlW1OTTBOq4QWiTxxEDPHrEs4yl5ePW4GHDB5gfCkg17ALHtnc8bxyKFmnaadmp8sXEAfnf00tvNDMHkN")
+    stripePromise = loadStripe("pk_test_51Ne1taEerb0AOO8oxzB0424U2wz6ZbLVhvLrbxNm6YcoFIv0AVxFePYnlczl3DGYkePmP8dMY9RDkEEyHuA128ow004DzAA2qF")
   }
   return stripePromise
 }
@@ -22,8 +22,8 @@ const Checkout = () => {
     const stripe = await getStripe()
     const { error } = await stripe.redirectToCheckout({
       mode: "payment",
-      lineItems: [{ price: "price_1NPTLVFvrpXTb6ZSEBDF4FGR", quantity: 1 }],
-      successUrl: `http://localhost:8000/page-2/`,
+      lineItems: [{ price: "price_1NeugeEerb0AOO8oT5SPaUV6", quantity: 1 }],
+      successUrl: `http://localhost:8000/thanks/`,
       cancelUrl: `http://localhost:8000/`,
     })
 

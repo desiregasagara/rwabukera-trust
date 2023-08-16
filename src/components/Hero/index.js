@@ -41,7 +41,6 @@ const Hero = () =>{
         <div className={styles.heroContainer}>
           
         <h1 className={styles.header}>Supporting Better Futures</h1>
-        <p className={styles.info}>We encourage the love of educational pursuit </p>
         <AnchorLink to="/#destinations" className={styles.bLink} >
         <Checkout/>
         </AnchorLink>
