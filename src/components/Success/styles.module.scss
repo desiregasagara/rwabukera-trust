@@ -23,7 +23,9 @@ li{
 
 }
 .ubuntu{
-    font-size: calc(1.5rem + (3 - 1.5) * ((100vw - 25rem) / (80 - 25)));
+
+    font-size:calc(1rem + (2 - 1) * ((100vw - 25rem) / (80 - 25)));
+    font-family: "Rowdies";    
     margin-bottom: 2%;
     color: #3A1700;
  }

@@ -13,12 +13,9 @@ const Footer =  () => {
 
                 <div className={styles.contactBox2}>
                 <h3 style={{color:'rgba(58, 23, 0, 0.75);', fontSize:'1.2rem'}}>Want to find out more?</h3>
-
+                <a href = "mailto: rwabukeratrust@gmail.com">
                     <StaticImage src="../../images/mail.png"></StaticImage>
-                    <div className={styles.projectText}>
-                        <p style={{fontFamily:'Manrope',fontSize:'20px',margin:'0%',textAlign:'center'}}>Mail</p>
-                        <p style={{fontFamily:'Manrope',fontSize:'16px',color:'#3A1700',margin:'0%'}}>rwabukeratrust@gmail.com</p>
-                    </div>
+                </a>
 
                 </div>
 

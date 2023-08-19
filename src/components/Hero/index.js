@@ -14,7 +14,7 @@ const Hero = () =>{
 
         <div className={styles.gridSetup} style={{}}>
           <div  className={styles.imgGrid}>
-          <picture>
+          <picture className={styles.picDiv}>
                 <source media="(max-width: 799px)" srcset={HeroImageSmall}></source>
                 <source media="(min-width: 800px)" srcset={HeroImage}></source>
                 <img
@@ -41,9 +41,7 @@ const Hero = () =>{
         <div className={styles.heroContainer}>
           
         <h1 className={styles.header}>Supporting Better Futures</h1>
-        <AnchorLink to="/#destinations" className={styles.bLink} >
         <Checkout/>
-        </AnchorLink>
         </div>
       </div>
     </div>

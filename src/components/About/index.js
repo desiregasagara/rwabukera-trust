@@ -54,7 +54,7 @@ const About = () =>{
                 </div>
 
         </div>
-        <p className={styles.quoteText}>A good education is a foundation for a better future</p>
+        <div className={styles.quoteContainer}><q className={styles.quoteText}>A good education is a foundation for a better future</q></div>
         <div className={styles.projectsdiv}>
              <div className={styles.projectBox}>
                 <p className={styles.number}>20%</p>

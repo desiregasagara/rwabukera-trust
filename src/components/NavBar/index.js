@@ -20,8 +20,8 @@ const NavBar = () => {
         <div>
         <div className={styles.navbar}> 
 
-        <Link to='/'>
-            <StaticImage src='../../images/Logo24.png' className={styles.logo} />
+        <Link to='/' className={styles.logoLink}>
+            <StaticImage src='../../images/Logo24.png' className={styles.logo} style={{position:"absolute"}}/>
         </Link>
             <div className={styles.nav}>
                 <div className={styles.hiddenDiv}> Hide me</div>
@@ -58,7 +58,7 @@ const NavBar = () => {
 
                     </ul>
                 </nav>
-                <Link to = "/contact"  className={styles.bLink} ><button className={styles.btn}>CONTACT</button></Link>
+                <Link to = "/contact"  className={styles.bLink} ><button className={styles.btn}>Contact</button></Link>
                 </div>
                 
             </div>

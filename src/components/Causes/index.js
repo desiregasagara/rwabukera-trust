@@ -2,6 +2,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import * as styles from './styles.module.scss';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import CheckoutC from "../CheckoutC/checkout";
 
 
 const Causes = () =>{
@@ -57,14 +58,14 @@ const Causes = () =>{
                     </div>                    
                     <div className={styles.causeDiv}>
                         <div className={styles.causeInner}>
-                        <p>In her first year of nursing </p> 
+                        <p className={styles.cheader}>In her first year of nursing </p> 
                         <p> "Studying to achieve her dream of taking care of patients"</p>
                         <div className={styles.causeAmounts}>
                         </div>
                         <div class="progress" style={{height:"0.5rem",borderRadius:"2.5rem", margin:"5% 0%"}}>
                             <div class="progress-bar" role="progressbar" style={{width:"15%", backgroundColor: "#2FB0AB"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <a href = ""  className={styles.bLink} ><button className={styles.btn}>Make A Donation</button></a>
+                        <a href = ""  className={styles.bLink} ><CheckoutC/></a>
 
 
                         </div>
@@ -109,14 +110,14 @@ const Causes = () =>{
                     </div>
                     <div className={styles.causeDiv}>
                         <div className={styles.causeInner}>
-                        <p>Doing a bachelor's degree in education</p>
+                        <p className={styles.cheader}>Doing a bachelor's degree in education</p>
                         <p>"Thank you for the greatest chance to pursue education"</p>
                         <div className={styles.causeAmounts}>
                         </div>
                         <div class="progress" style={{height:"0.5rem",borderRadius:"2.5rem", margin:"5% 0%"}}>
                             <div class="progress-bar" role="progressbar" style={{width:"85%", backgroundColor: "#2FB0AB"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <a href = ""  className={styles.bLink} ><button className={styles.btn}>Make A Donation</button></a>
+                        <a href = ""  className={styles.bLink} ><CheckoutC/></a>
 
 
                         </div>
@@ -167,14 +168,14 @@ const Causes = () =>{
                     </div>
                     <div className={styles.causeDiv}>
                         <div className={styles.causeInner}>
-                        <p>Graduated university in 2019</p>
+                        <p className={styles.cheader}>Graduated university in 2019</p>
                         <p>Now helps people as a nurse</p>
                         <div className={styles.causeAmounts}>
                         </div>
                         <div class="progress" style={{height:"0.5rem",borderRadius:"2.5rem", margin:"5% 0%"}}>
                             <div class="progress-bar" role="progressbar" style={{width:"100%", backgroundColor: "#2FB0AB"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <a href = ""  className={styles.bLink} ><button className={styles.btn}>Make A Donation</button></a>
+                        <a href = ""  className={styles.bLink} ><CheckoutC/></a>
 
 
                         </div>

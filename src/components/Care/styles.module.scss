@@ -7,8 +7,8 @@
 }
 
 .box-title{
-    font-size: calc(0.625rem + (1.5 - 0.625) * ((100vw - 25rem) / (80 - 25)));
-
+    font-size:calc(1rem + (1.563 - 1) * ((100vw - 25rem) / (80 - 25)));
+    margin-bottom: 0;
 
 }
 
@@ -19,6 +19,10 @@
     margin: 5%;
     min-height: 255px;
     background-color: #F3F2E7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .carepoint-boxes{
     display: grid;
@@ -73,14 +77,19 @@
  .box-description{
      font-family: 'manrope';
      color:#3A170080;
+     font-size:calc(1rem + (1.25 - 1) * ((100vw - 25rem) / (80 - 25)));
+
+
  }
  .description{
-     font-size:calc(0.625rem + (1 - 0.625) * ((100vw - 25rem) / (97.5 - 25)));
-     color:#E29F72;
+    font-size:calc(1rem + (1.25 - 1) * ((100vw - 25rem) / (80 - 25)));
+    color:#E29F72;
      padding: 2%;
  }
  .ubuntu{
-    font-size: calc(1.125rem + (2.25 - 1.125) * ((100vw - 25rem) / (80 - 25)));
+
+    font-size:calc(1rem + (2 - 1) * ((100vw - 25rem) / (80 - 25)));
+    font-family: "Rowdies";    
     color: #3A1700;
  }
 

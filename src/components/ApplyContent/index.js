@@ -15,7 +15,7 @@ const ApplyContent = () =>{
 
             <p>The trustees of the Rwabukera Trust are committed to ensuring all funds have a meaningful impact and represent a genuine charitable purpose. Applications are currently open and can be made through the link below:
             </p>
-            <a className={styles.applicationForm} href="https://docs.google.com/forms/d/e/1FAIpQLSf3hS70eEjlfp2VHjlVWX03c8Bw6DE2xCIcRyX1_kPZNEOjiQ/formResponse"> Application form</a>
+            <a className={styles.linkToApply} href="https://docs.google.com/forms/d/e/1FAIpQLSf3hS70eEjlfp2VHjlVWX03c8Bw6DE2xCIcRyX1_kPZNEOjiQ/formResponse"> Application form</a>
 
         </div>
         

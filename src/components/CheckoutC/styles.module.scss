@@ -30,7 +30,7 @@
 }
 .hero-image{
     height:100% ;
-    width:70%;
+    width:100%;
     bottom:0;
     left:auto;
 }
@@ -40,15 +40,10 @@
     font-family: 'Rowdies', sans-serif;
     padding: 2%;
     text-align: left;
-    font-size: calc(2rem + (3 - 2) * ((100vw - 25rem) / (80 - 25)));
+    font-size: calc(1.563rem + (3 - 1.563) * ((100vw - 25rem) / (80 - 25)));
     font-weight: bold;
     color:#3A1700;
 
-}
-
-.pic-div{
-    display: flex;
-    justify-content: end;
 }
 .info{
     font-weight: 300;
@@ -58,34 +53,24 @@
     color: #3A1700;
 }
 .btn{
+    width: 100%;
     display: inline-block;
     background-color: #7E8AB8;
     color:white;
     margin-top: 15%;
-    padding: 0.5rem calc(2.5rem + (6.5 - 2.5 ) * ((100vw - 25rem) / (80 - 25)));
     border: none;
     border-radius: 1.563rem;
     font-weight: 200;
     cursor:pointer;
-    font-size:calc(0.4rem + (1.125 - 0.4) * ((100vw - 25rem) / (80 - 25)));
+    font-size:calc(1rem + (1.563 - 1) * ((100vw - 25rem) / (80 - 25)));
 }
 .b-link{
     margin-right:auto ;
 }
 
 @media all and (max-width:768px){
-
-    .pic-div{
-        display: flex;
-        justify-content: center;
-    }
-    .hero-image{
-        width: 75%;
-    }
     .img-grid{
         grid-area: auto;
-        margin-top: 15%;
-        margin-bottom: 15%;
     }
     .grid-setup{
         grid-template-columns: auto;
@@ -100,6 +85,6 @@
         padding: 0 10% 4% 10%;
     }
     .btn{
-        display: none;
+        margin-bottom: 15%;
     }
 }

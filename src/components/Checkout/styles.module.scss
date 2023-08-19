@@ -53,6 +53,7 @@
     color: #3A1700;
 }
 .btn{
+    width: fit-content;
     display: inline-block;
     background-color: #7E8AB8;
     color:white;
@@ -62,7 +63,7 @@
     border-radius: 1.563rem;
     font-weight: 200;
     cursor:pointer;
-    font-size:calc(0.4rem + (1.125 - 0.4) * ((100vw - 25rem) / (80 - 25)));
+    font-size:calc(1rem + (1.563 - 1) * ((100vw - 25rem) / (80 - 25)));
 }
 .b-link{
     margin-right:auto ;
@@ -83,5 +84,8 @@
     }
     .hero-container{
         padding: 0 10% 4% 10%;
+    }
+    .btn{
+        margin-bottom: 15%;
     }
 }

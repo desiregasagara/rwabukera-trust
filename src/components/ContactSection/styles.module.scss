@@ -8,21 +8,30 @@
     margin-bottom: 1%;
 }
 .form-control{
-    padding:1.5%;
+    padding:1%;
     width: 100%;
 
 }
 .form-control-message{
-    padding:1.5%;
-    min-height: 20vh;
+    padding:1%;
+    min-height: 10vh;
     width: 100%;
     
+}
+.fcontainer{
+    margin-bottom: 1%;
+}
+.header{
+    margin-bottom: 2%;
 }
 .labels{
     width: 100%;
 }
 .ubuntu{
-    font-size: calc(1.5rem + (3 - 1.5) * ((100vw - 25rem) / (80 - 25)));
+    
+    font-size:calc(1rem + (2 - 1) * ((100vw - 25rem) / (80 - 25)));
+    font-family: "Rowdies";-size: calc(1.5rem + (3 - 1.5) * ((100vw - 25rem) / (80 - 25)));
+    
     margin-bottom: 2%;
     color: #3A1700;
  }
@@ -30,11 +39,16 @@
     display: inline-block;
     background-color: #7E8AB8;
     color:white;
-    margin-top: 15%;
+    margin-top: 2%;
     padding: 0.5rem calc(2.5rem + (6.5 - 2.5 ) * ((100vw - 25rem) / (80 - 25)));
     border: none;
     border-radius: 1.563rem;
     font-weight: 200;
     cursor:pointer;
     font-size:calc(0.4rem + (1.125 - 0.4) * ((100vw - 25rem) / (80 - 25)));
+}
+@media all and (max-width:768px){
+    .ubuntu{
+        font-size: 1.5rem;
+    }
 }

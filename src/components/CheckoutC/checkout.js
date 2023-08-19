@@ -12,7 +12,7 @@ const getStripe = () => {
   return stripePromise
 }
 
-const Checkout = () => {
+const CheckoutC = () => {
   const [loading, setLoading] = useState(false)
 
   const redirectToCheckout = async event => {
@@ -46,4 +46,4 @@ const Checkout = () => {
   )
 }
 
-export default Checkout
+export default CheckoutC

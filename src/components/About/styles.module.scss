@@ -41,13 +41,14 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .description{
-    font-size:calc(0.625rem + (1 - 0.625) * ((100vw - 25rem) / (97.5 - 25)));
+    font-size:calc(1rem + (1.25 - 1) * ((100vw - 25rem) / (80 - 25)));
     color:#E29F72;
-    padding: 2%;
+    padding: 2% 0;
 }
 .ubuntu{
-    font-size: calc(1.125rem + (2.25 - 1.125) * ((100vw - 25rem) / (80 - 25)));
+    font-size:calc(1rem + (2 - 1) * ((100vw - 25rem) / (80 - 25)));
     color: #3A1700;
+    font-family: 'Rowdies';
  }
 
 .info{
@@ -56,15 +57,19 @@
     padding: 4% 2%;
     text-align: left;
     color: #3A1700;
+    font-size:calc(1rem + (1.25 - 1) * ((100vw - 25rem) / (80 - 25)));
+
 }
 .fact-header{
     font-family: 'Manrope';
-    font-size: 20px;
+    font-size:calc(1rem + (1.5 - 1) * ((100vw - 25rem) / (80 - 25)));
+    color:#3A1700;
+
 }
 .fact-sub{
     font-family: 'Manrope';
-    font-size: 20px;
-    color:#3A1700;
+    font-size:calc(1rem + (1.25 - 1) * ((100vw - 25rem) / (80 - 25)));
+    
 
 }
 .btn{
@@ -77,15 +82,19 @@
     border-radius: 1.563rem;
     cursor:pointer;
     font-family: 'Manrope';
-    font-size:calc(0.625rem + (1 - 0.625) * ((100vw - 25rem) / (80 - 25)));
+    font-size:1rem;
 
 }
-.quote-text{
-    text-align: center;
-    width: 40%;
+.quote-container{
+    width: 50%;
+    font-size: 1rem;
     margin:auto;
     padding:4%;
+    text-align: center;
+
+
 }
+
 .number{
     font-size: large;
     margin: 7%;
@@ -141,5 +150,12 @@
             width: 100%;
             margin:2%;
         }
+        .quote-container{
+            width: 70%;
+        }
+        .btn{
+            width: 100%;
+        }
     
+
 }
