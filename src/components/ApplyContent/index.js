@@ -10,7 +10,7 @@ const ApplyContent = () =>{
 
         <div id="aboutcontent" className={styles.aboutcontentDiv}>
             <h2 className={styles.ubuntu}>Apply for scholarships</h2>
-            <p>The Rwabukera Trust supports a wide range of causes that improve the lives of individuals and communities around the world. Before submitting a request using the form below, please check your needs or cause aligns with at least one of our purpose statements.</p>
+            <p>The Rwabukera Trust supports a wide range of causes that improve the lives of individuals and communities around the world. Before submitting a request using the form below, please check your needs or cause aligns with <Link className={styles.linkToApply} to="/about">at least one of our purpose statements.</Link></p>
             <p>The Rwabukera Trust board and it's trustees will provide scholarships within the UK and internationally.</p>
 
             <p>The trustees of the Rwabukera Trust are committed to ensuring all funds have a meaningful impact and represent a genuine charitable purpose. Applications are currently open and can be made through the link below:
