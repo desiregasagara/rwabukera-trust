@@ -9,7 +9,7 @@
     background-color: #e1a075;
 }
 .navlink{
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 22px;
     color: #3A1700;
     &:visited{
@@ -36,5 +36,6 @@
         font-size: 0.8rem;
         width: 100%;
         text-align: center;
+        text-decoration: underline;
     }
 }
