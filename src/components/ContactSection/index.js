@@ -31,7 +31,7 @@ const ContactSection =()=> {
                 <div className={styles.fcontainer}>
                     <label for="flocation" className = {styles.labels} required>
                         <p className={styles.text}>Your message</p>
-                        <textarea type="text"name="location" id="location" className={styles.formControlMessage} placeholder="" required ></textarea> 
+                        <textarea type="text"name="Message" id="message" className={styles.formControlMessage} placeholder="" required ></textarea> 
                     </label>
                 </div>
             <div className={styles.btnDiv}>

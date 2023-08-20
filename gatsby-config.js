@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Rwabukera Trust Site`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://rwabukeratrust.com`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp","gatsby-plugin-sass","gatsby-plugin-modal-routing","gatsby-plugin-anchor-links", {
     resolve: 'gatsby-source-filesystem',
