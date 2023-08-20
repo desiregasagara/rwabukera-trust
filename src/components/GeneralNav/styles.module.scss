@@ -208,6 +208,13 @@ li .navlist{
 }
 
 @media all and (max-width:768px){
+    .nav{
+        padding: 3%;
+    }
+
+    .link-logo{
+        display: none;
+}   
     .hidden-div{
         display: none;
     }
