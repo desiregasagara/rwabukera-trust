@@ -7,6 +7,7 @@
     "dependencies": {
         "@stripe/stripe-js": "^1.54.1",
         "gatsby": "^5.11.0",
+        "gatsby-omni-font-loader": "^2.0.2",
         "gatsby-plugin-anchor-links": "^1.2.1",
         "gatsby-plugin-image": "^3.11.0",
         "gatsby-plugin-manifest": "^5.11.0",
@@ -14,12 +15,14 @@
         "gatsby-plugin-sass": "^6.7.0",
         "gatsby-plugin-sharp": "^5.11.0",
         "gatsby-plugin-sitemap": "^6.11.0",
+        "gatsby-plugin-web-font-loader": "^1.0.4",
         "gatsby-source-filesystem": "^5.11.0",
         "gatsby-source-stripe": "^4.0.0",
         "gatsby-transformer-sharp": "^5.11.0",
         "netlify-identity-widget": "^1.9.2",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-helmet": "^6.1.0"
     },
     "overrides": {
         "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {

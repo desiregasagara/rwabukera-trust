@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+@font-face {
+    font-family: "Rowdies-Regular";
+    src: url("../fonts/Rowdies-Regular.woff") format("woff"),
+    url("../fonts/Rowdies-Regular.woff2") format("woff2"),
+    url("../fonts/Rowdies-Regular.ttf") format("ttf");
+
+    }
+@font-face {
+        font-family: "Rowdies-Bold";
+        src: url("../fonts/Rowdies-Bold.woff") format("woff"),
+        url("../fonts/Rowdies-Bold.woff2") format("woff2"),
+        url("../fonts/Rowdies-Bold.ttf") format("ttf");
+    }
+@font-face {
+        font-family: "Rowdies-Light";
+        src: url("../fonts/Rowdies-Light.woff") format("woff"),
+        url("../fonts/Rowdies-Light.woff2") format("woff2"),
+        url("../fonts/Rowdies-Light.ttf") format("ttf");
+    }
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Rowdies', sans-serif;
+    color: #3A1700;
+}
+
