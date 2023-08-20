@@ -2,6 +2,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import * as styles from './styles.module.scss';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { Link, navigate } from "gatsby"
 
 
 const ApplyContent = () =>{
