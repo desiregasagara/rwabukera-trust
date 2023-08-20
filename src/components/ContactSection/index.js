@@ -11,7 +11,7 @@ const ContactSection =()=> {
 
         <div className={styles.heroContainer}>
             <p className={styles.header}>If you have a query about anything related to who we are and what we do, we're happy to help</p>
-            <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" className={styles.form} >
+            <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" className={styles.form} netlify>
 
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
