@@ -23,8 +23,8 @@ const Checkout = () => {
     const { error } = await stripe.redirectToCheckout({
       mode: "payment",
       lineItems: [{ price: "price_1NgweJIUYiNbhYHL5daZof4q", quantity: 1 }],
-      successUrl: `http://localhost:8000/thanks/`,
-      cancelUrl: `http://localhost:8000/`,
+      successUrl: `https://rwabukeratrust.com/thanks/`,
+      cancelUrl: `https://rwabukeratrust.com/`,
     })
 
     if (error) {
