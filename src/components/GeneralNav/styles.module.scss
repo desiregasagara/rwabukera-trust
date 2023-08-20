@@ -125,7 +125,6 @@ li .navlist{
     border-radius: 25px;
     list-style-type: none;
     margin: 0;
-    text-decoration: none;
     color: #3A1700;
     &:hover {
 
@@ -140,21 +139,32 @@ li .navlist{
 .navlink{
     font-family: 'Manrope';
     text-decoration: none;
+    color:#3A1700;
+
+    
 
     &:visited{
         color:#3A1700;
     }
+    &:hover{
+        color: #E29F72;
+    }
 
 }
-
 
 .navlink1{
     display: none;
     font-family: 'Manrope';
     text-decoration: none;
+    color:#3A1700;
+
+    
 
     &:visited{
         color:#3A1700;
+    }
+    &:hover{
+        color: #E29F72;
     }
 
 }

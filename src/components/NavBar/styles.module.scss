@@ -135,6 +135,9 @@ li .navlist{
     &:visited{
         color:#3A1700;
     }
+    &:hover{
+        color: #E29F72;
+    }
 
 }
 .logo{
@@ -243,6 +246,7 @@ li .navlist{
     }
     .navlist{
         display: flex;
+        
         justify-content: flex-end;
         text-align: end;
     }

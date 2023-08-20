@@ -7,6 +7,7 @@ import HeroImageSmall from "../../images/bkimage.png"
 import Checkout from '../Checkout/checkout';
 
 import { loadStripe } from "@stripe/stripe-js"
+import { Link } from 'gatsby-plugin-modal-routing';
 
 const Hero = () =>{
 
@@ -14,6 +15,7 @@ const Hero = () =>{
 
         <div className={styles.gridSetup} style={{}}>
           <div  className={styles.imgGrid}>
+          <Link to="/about">
           <picture className={styles.picDiv}>
                 <source media="(max-width: 799px)" srcset={HeroImageSmall}></source>
                 <source media="(min-width: 800px)" srcset={HeroImage}></source>
@@ -32,6 +34,7 @@ const Hero = () =>{
               
               ></img>
             </picture>
+            </Link>
             </div>
       <div
 
