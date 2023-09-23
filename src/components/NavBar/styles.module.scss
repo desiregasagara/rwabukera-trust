@@ -185,7 +185,12 @@ li .navlist{
 .logo-link{
     position: relative;
 }
-
+@media all and (max-width:1200px){
+.hidden-div{
+    width: 11rem;
+    color:#F3F2E7 ;
+}
+}
 @media all and (max-width:768px){
     .navbar{
         display: flex;
