@@ -22,7 +22,7 @@ const Checkout = () => {
     const stripe = await getStripe()
     const { error } = await stripe.redirectToCheckout({
       mode: "payment",
-      lineItems: [{ price: "price_1NgweJIUYiNbhYHL5daZof4q", quantity: 1 }],
+      lineItems: [{ price: "price_1PTqcnIUYiNbhYHLOtCDLYYI", quantity: 1 }],
       successUrl: `https://rwabukeratrust.com/thanks/`,
       cancelUrl: `https://rwabukeratrust.com/`,
     })
