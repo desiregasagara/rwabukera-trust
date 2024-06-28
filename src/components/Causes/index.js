@@ -2,7 +2,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import * as styles from './styles.module.scss';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import CheckoutC from "../CheckoutC/checkout";
+import Checkout from "../Checkout/checkout";
 
 
 const Causes = () =>{
@@ -65,7 +65,7 @@ const Causes = () =>{
                         <div class="progress" style={{height:"0.5rem",borderRadius:"2.5rem", margin:"5% 0%"}}>
                             <div class="progress-bar" role="progressbar" style={{width:"15%", backgroundColor: "#2FB0AB"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <a href = ""  className={styles.bLink} ><CheckoutC/></a>
+                        <a href = ""  className={styles.bLink} ><Checkout/></a>
 
 
                         </div>
@@ -117,7 +117,7 @@ const Causes = () =>{
                         <div class="progress" style={{height:"0.5rem",borderRadius:"2.5rem", margin:"5% 0%"}}>
                             <div class="progress-bar" role="progressbar" style={{width:"85%", backgroundColor: "#2FB0AB"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <a href = ""  className={styles.bLink} ><CheckoutC/></a>
+                        <a href = ""  className={styles.bLink} ><Checkout/></a>
 
 
                         </div>
@@ -175,7 +175,7 @@ const Causes = () =>{
                         <div class="progress" style={{height:"0.5rem",borderRadius:"2.5rem", margin:"5% 0%"}}>
                             <div class="progress-bar" role="progressbar" style={{width:"100%", backgroundColor: "#2FB0AB"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <a href = ""  className={styles.bLink} ><CheckoutC/></a>
+                        <a href = ""  className={styles.bLink} ><Checkout/></a>
 
 
                         </div>

@@ -3,7 +3,7 @@ import * as React from "react";
 import * as styles from './styles.module.scss';
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { Link } from 'gatsby'
-import CheckoutDonation from "../CheckoutDonation/checkout";
+import Checkout from "../Checkout/checkout";
 
 const Donation = () =>{
     return(
@@ -51,7 +51,7 @@ const Donation = () =>{
                             </div>
                             <div className={styles.buttonDiv}>
                                 <Link to = "/contact"  className={styles.bLink} ><button className={styles.btnContact}>CONTACT US</button></Link>
-                                <CheckoutDonation/>
+                                <Checkout/>
                             </div>
                   
                     </div>
