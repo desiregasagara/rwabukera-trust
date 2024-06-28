@@ -30,7 +30,9 @@ const Checkout = () => {
 
       const session = await response.json();
       const stripe = await getStripe();
-      const { error } = await stripe.redirectToCheckout({});
+      const { error } = await stripe.redirectToCheckout({
+        sessionId: session.id,
+      });
     } catch (err) {
       console.warn("Error:", err);
       setLoading(false);

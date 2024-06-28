@@ -11,7 +11,7 @@ export default async function handler(req, res) {
         payment_method_types: ["card"],
         line_items: [
           {
-            price: "price_1NgweJIUYiNbhYHL5daZof4q", // Replace with your price ID
+            price: "price_1PTqcnIUYiNbhYHLOtCDLYYI", // Replace with your price ID
             quantity: 1,
           },
         ],
