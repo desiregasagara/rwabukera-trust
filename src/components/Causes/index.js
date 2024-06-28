@@ -18,7 +18,7 @@ const Causes = () =>{
         </head>
             <div className={styles.etitle} >
                 <h3 className={styles.description}> Our Success Stories</h3>
-                <p className={styles.ubuntu}>How your donations help</p>
+                <p className={styles.ubuntu}>How your contributions help</p>
             </div>
             <div className={styles.container}>
                                 

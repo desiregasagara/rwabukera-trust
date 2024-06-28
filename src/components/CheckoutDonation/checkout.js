@@ -45,7 +45,7 @@ const Checkout = () => {
       className={styles.btnDonation}
       onClick={redirectToCheckout}
     >
-      MAKE A DONATION
+      SUPPORT RWABUKERA TRUST
     </button>
   );
 };

@@ -45,7 +45,7 @@ const Checkout = () => {
       className={styles.btn}
       onClick={redirectToCheckout}
     >
-      Donate
+      Contribute
     </button>
   );
 };

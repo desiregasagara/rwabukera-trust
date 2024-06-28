@@ -46,8 +46,8 @@ const Donation = () =>{
                     <div className={styles.sliceContainer}>
 
                             <div >
-                                <h3 className={styles.ubuntu}> Make A Donation</h3>
-                                <p className={styles.description}>Your donations help create futures that felt impossible</p>
+                                <h3 className={styles.ubuntu}> Make A Contribution</h3>
+                                <p className={styles.description}>Your contributions help create futures that felt impossible</p>
                             </div>
                             <div className={styles.buttonDiv}>
                                 <Link to = "/contact"  className={styles.bLink} ><button className={styles.btnContact}>CONTACT US</button></Link>
